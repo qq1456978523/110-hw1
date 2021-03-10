@@ -11,6 +11,8 @@
 		55914E5C25F86AEA00853F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55914E5B25F86AEA00853F0C /* ContentView.swift */; };
 		55914E5E25F86AED00853F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55914E5D25F86AED00853F0C /* Assets.xcassets */; };
 		55914E6125F86AED00853F0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55914E6025F86AED00853F0C /* Preview Assets.xcassets */; };
+		55914E6E25F86C3000853F0C /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55914E6D25F86C3000853F0C /* game.swift */; };
+		55914E7325F8768E00853F0C /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55914E7225F8768E00853F0C /* question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		55914E5D25F86AED00853F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55914E6025F86AED00853F0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55914E6225F86AED00853F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55914E6D25F86C3000853F0C /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
+		55914E7225F8768E00853F0C /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				55914E5925F86AEA00853F0C /* hw1App.swift */,
 				55914E5B25F86AEA00853F0C /* ContentView.swift */,
+				55914E6D25F86C3000853F0C /* game.swift */,
+				55914E7225F8768E00853F0C /* question.swift */,
 				55914E5D25F86AED00853F0C /* Assets.xcassets */,
 				55914E6225F86AED00853F0C /* Info.plist */,
 				55914E5F25F86AED00853F0C /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55914E6E25F86C3000853F0C /* game.swift in Sources */,
+				55914E7325F8768E00853F0C /* question.swift in Sources */,
 				55914E5C25F86AEA00853F0C /* ContentView.swift in Sources */,
 				55914E5A25F86AEA00853F0C /* hw1App.swift in Sources */,
 			);

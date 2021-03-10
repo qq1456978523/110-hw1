@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack() {
+                Text("猜猜看").offset(x: 0, y: -200).font(.system(size: 80))
+                NavigationLink(destination: game()) {
+                    Text("開始")
+                        .foregroundColor(Color.black).padding().background(Color.blue).cornerRadius(100)
+                }
+            }
+            .background(Image("back").resizable()
+            .frame(width: 450, height: 800, alignment: .center))
+        }.onAppear{
+            Qbank.shuffle()}
     }
 }
 
